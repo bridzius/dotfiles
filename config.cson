@@ -1,0 +1,43 @@
+"*":
+  "atom-material-ui":
+    colors:
+      abaseColor:
+        alpha: 1
+        blue: 38
+        green: 167
+        red: 255
+      accentColor:
+        alpha: 1
+        blue: 24
+        green: 105
+        red: 159
+      predefinedColor: "Orange"
+    fonts:
+      fontSize: 15
+    tabs:
+      tintedTabBar: true
+    treeView:
+      blendTabs: true
+      compactList: true
+  "atom-typescript": {}
+  core:
+    telemetryConsent: "limited"
+    themes: [
+      "seti-ui"
+      "an-old-hope-syntax"
+    ]
+  editor:
+    fontSize: 15
+    invisibles: {}
+  "exception-reporting":
+    userId: "a70aaa60-a334-8737-5088-efa3a0317cfb"
+  "git-plus": {}
+  "merge-conflicts": {}
+  minimap: {}
+  "one-dark-ui": {}
+  "one-light-ui": {}
+  welcome:
+    showOnStartup: false
+".js.source":
+  editor:
+    tabLength: 4
