@@ -9,6 +9,8 @@ Plug 'morhetz/gruvbox' "https://github.com/morhetz/gruvbox
 Plug 'neovim/nvim-lspconfig' "https://github.com/neovim/nvim-lspconfig
 Plug 'ms-jpq/chadtree', {'branch': 'chad', 'do': 'python3 -m chadtree deps'} "https://github.com/ms-jpq/chadtree
 Plug 'tpope/vim-commentary' "https://github.com/tpope/vim-commentary
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }  "https://github.com/junegunn/fzf
+Plug 'junegunn/fzf.vim' "https://github.com/junegunn/fzf.vim
 
 call plug#end()
 set number
