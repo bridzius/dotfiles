@@ -8,5 +8,8 @@ then
 fi
 
 # Injects environment config to correct locations
-echo "Moving init.vim to neovim config"
-cp init.vim ~/.config/nvim/init.vim && echo "COMPLETE"
+echo "Moving init.lua to neovim config"
+cp -f init.lua ~/.config/nvim/ && echo "COMPLETE"
+
+echo "Moving lua plugins to neovim config"
+cp -fr lua ~/.config/nvim/ && echo "COMPLETE"
