@@ -9,7 +9,10 @@ fi
 
 # Injects environment config to correct locations
 echo "Moving init.lua to neovim config"
-cp -f init.lua ~/.config/nvim/ && echo "COMPLETE"
+cp -fr init.lua ~/.config/nvim/ && echo "COMPLETE"
+
+echo "Moving lazy-lock.json to neovim config"
+cp -fr lazy-lock.json ~/.config/nvim/ && echo "COMPLETE"
 
 echo "Moving lua plugins to neovim config"
 cp -fr lua ~/.config/nvim/ && echo "COMPLETE"
